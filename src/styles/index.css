@@ -1,0 +1,172 @@
+.header{
+    background-color: #000;
+    color: #fff;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.col-3{
+    display: grid;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: left;
+}
+.p-1{
+    padding: 1rem;
+}
+.about-detail{
+    padding-left: 4rem;
+    padding-right:4rem;
+}
+.m-1{
+    margin: 1rem;
+}
+.m-2{
+    margin:2rem;
+}
+.col-4{
+    display: flex;
+    width: 33.3%;
+    justify-content: center;
+    align-items: center;
+}
+.col-8{
+    display: flex;
+    width: 66.7%;
+    justify-content: center;
+    align-items: center;
+}
+.col-12{
+    display: block;
+    width: 100%;
+}
+.nav-links{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: blue;
+}
+.nav-links a{
+    text-decoration: none;
+    color: blue;
+    padding: 1rem;
+}
+.nav-links:hover{
+    text-decoration: underline;
+    background-color: #fff;
+    color: #000;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+.logo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+}
+footer{
+    background-color: brown;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    width: 95%;
+}
+.back{
+    background-color: #fff;
+    color: blue;
+    padding: 1rem;
+    align-items: left;
+    order: 1;
+}
+.social-links{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    order: 2;
+}
+.social-links a{
+    text-decoration: underline;
+    color: blue;
+    padding: 1rem;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.contact-main{
+   height: 55vh;
+}
+.contact-form{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.table-head{
+    background-color: gray;
+}
+table{
+    width: 50%;
+   margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 1rem;
+  }
+.site-detail1{
+    margin-left: 2rem;
+}
+.site-detail2{
+    text-align: left;
+}
+
+@media screen and (max-width: 768px){
+    .col-4{
+        width: 100%;
+        padding: 1rem;
+    }
+    .col-8{
+        width: 100%;
+        padding: 1rem;
+    }
+    .col-12{
+        width: 100%;
+    }
+    .col-3{
+        width: 100%;
+    }
+    footer{
+        width: 85%;
+    }
+    .about-detail{
+        padding:0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        height:20rem;
+    }
+    table{
+        width: 100%;
+        padding: 0.3rem;
+    }
+    table, th, td {
+        padding: 0rem;
+      }
+    .contact-form{
+        margin:0 auto;
+        width: 100%;
+        margin-top: 2rem
+    }
+    .site-detail1{
+        margin-left: 0rem;
+    }
+    .contact-main{
+        height: 35vh;
+     }
+}
+#error{
+    color:red;
+}
